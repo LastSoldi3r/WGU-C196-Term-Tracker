@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="@string/home"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:id="@+id/homeFromAssessments"/>
+    <item android:title="@string/refresh"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:id="@+id/refreshAssessments"/>
+    <item android:title="@string/delete"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:id="@+id/deleteCourse"/>
+    <item android:title="@string/share"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:id="@+id/shareCourseNotes"/>
+    <item android:title="@string/notify_start_course"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:id="@+id/notifyCourseStart"/>
+    <item android:title="@string/notify_end_course"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:id="@+id/notifyCourseEnd"/>
+</menu>
